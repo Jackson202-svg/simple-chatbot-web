@@ -1,16 +1,6 @@
-import { getBotResponse } from "../bot/bot.js";
-import { addMessage } from "../utils/helpers.js";
+import { handleSend } from "./ui.js";
 
-window.sendMessage = function () {
-  const input = document.getElementById("userInput");
-  const text = input.value.trim();
-  if (!text) return;
-
-  addMessage(text, "user");
-  input.value = "";
-
-  setTimeout(() => {
-    const reply = getBotResponse(text);
-    addMessage(reply, "bot");
-  }, 400);
-};
+document.getElementById("sendBtn").addEventListener("click", handleSend);
+document.getElementById("input").addEventListener("keydown", e => {
+  if (e.key === "Enter") handleSend();
+});
