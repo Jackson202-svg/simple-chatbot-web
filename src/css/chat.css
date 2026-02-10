@@ -1,0 +1,7 @@
+.messages {
+  scroll-behavior: smooth;
+}
+
+.message.bot::before {
+  content: "🤖 ";
+}
