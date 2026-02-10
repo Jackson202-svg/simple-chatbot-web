@@ -1,20 +1,15 @@
-# 🤖 Simple Chatbot (HTML, CSS, JavaScript)
+# 🤖 Advanced Chatbot
 
-A lightweight chatbot built with pure HTML, CSS, and JavaScript.
-No frameworks. No backend. Works in any modern browser.
+A modular, scalable chatbot using vanilla HTML, CSS, and JavaScript.
 
-## 🚀 Features
-- User & bot messages
-- Auto-scroll chat window
-- Simple rule-based responses
-- Easy to customize
+## Features
+- Modular folder structure
+- Bot intents & responses
+- LocalStorage memory
+- GitHub Pages ready
 
-## 🛠️ How to Run
-1. Clone the repo
-2. Open `index.html` in your browser
+## Run
+Open `index.html`
 
-## 📦 Deployment
-You can deploy this using **GitHub Pages**.
-
-## 📄 License
-MIT
+## Deploy
+Settings → Pages → main → /root
